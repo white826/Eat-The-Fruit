@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yehsc.app.start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat The Fruit"
+            android:textSize="32sp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/orange"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/pink"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="8dp"
+            android:background="@drawable/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="開始遊戲"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="startGame"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
